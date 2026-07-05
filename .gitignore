@@ -1,0 +1,5 @@
+# builds klasörünün içindeki HER ŞEYİ yoksay
+builds/*
+
+# FAKAT zips klasörünü ve içindekileri yoksayma (istisna tut)
+!builds/zips/
