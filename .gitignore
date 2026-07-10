@@ -1,5 +1,9 @@
-# builds klasörünün içindeki HER ŞEYİ yoksay
-builds/*
+# Kök dizindeki (builds klasörü) HER ŞEYİ yoksay
+/*
 
 # FAKAT zips klasörünü ve içindekileri yoksayma (istisna tut)
-!builds/zips/
+!/zips/
+
+# FAKAT git yapılandırma dosyalarını yoksayma
+!/.gitignore
+!/.gitattributes
